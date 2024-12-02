@@ -1,0 +1,31 @@
+h1{
+    margin: 50px 0;
+    text-align: center;
+}
+.divFrom{
+    margin: 50px auto;
+    width: 60%;
+    background: rgb(159, 217, 255);
+    border: 1px solid rgb(7, 155, 254);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.divInput{
+    margin: 15px 0;
+    width: 500px;
+}
+input[type = 'text']{
+    margin-left: 20px;
+    height: 20px;
+    width: 80%;
+}
+input[type = 'submit']{
+    margin: 20px 45%;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+footer{
+    text-align: center;
+}
