@@ -3,6 +3,7 @@ import './components/StyleComponents.css';
 import Formulario from './components/Formulario';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import PruebaHook from './components/PruebaHook';
 
 function App() {
   return (
@@ -10,6 +11,9 @@ function App() {
     <Header />
     <div>
       <Formulario/>
+      <div>
+        <PruebaHook/>
+      </div>
     </div>
     <Footer />
     </>
